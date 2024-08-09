@@ -1,0 +1,79 @@
+/* General body style with gradient background */
+.background-gradient {
+    background: linear-gradient(45deg, #ff6f61, #d72b78, #3498db);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.login-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 1200px;
+    height: 600px;
+    margin: auto;
+    margin-top: 130px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width:500px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #ff6f61;
+    outline: none;
+}
+
+.login-button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width:250px;
+}
+
+.additional-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.additional-links a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.additional-links a:hover {
+    color: #ff6f61;
+    text-decoration: underline;
+}
+
